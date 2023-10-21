@@ -1,4 +1,5 @@
 # vite101
+
 An Introduction to Vite.js
 
 ## Getting Started
@@ -33,8 +34,7 @@ The error message you're encountering indicates that there is no "dev" script de
 
    Here's an example of what the "scripts" section might look like:
 
-   ```
-   "scripts": {
+   ```   "scripts": {
      "dev": "vite"
    }
    ```
@@ -54,25 +54,3 @@ The error message you're encountering indicates that there is no "dev" script de
    ```npm run dev```
 
  Ensure that the "dev" script is correctly defined in your "package.json" and that Vite is installed as a development dependency in your project. Once these steps are completed, you should be able to start your Vite development server without encountering the "Missing script: 'dev'" error.
-
-``
-…or create a new repository on the command line
-
-- echo "# vite101" >> README.md
-- git init
-- git add README.md
-- git commit -m "first commit"
-- git branch -M main
-- git remote add origin https://github.com/themaryanjuguna/vite101.git
-- git push -u origin main
-
-``
-
-…or push an existing repository from the command line
-
-``
-
-- git remote add origin https://github.com/themaryanjuguna/vite101.git
-- git branch -M main
-- git push -u origin main
-``
